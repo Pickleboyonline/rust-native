@@ -2,7 +2,7 @@
 A React Native like framework that uses Rust instead of Javascript
 
 ### Why?
-Because of Rust's blazingly fast spped and hype. Also, I have Typescript/Javascript fatigue. Oh yeah, and Rust apparantly has the best-in-class memory safety and developer experience.
+Because of Rust's hype and blazingly fast speed. Also, I have Typescript/Javascript fatigue. Oh yeah, and Rust apparantly has the best-in-class memory safety and developer experience.
 
 ### General Notes
  - SolidJs like reactivity and structure. The choice here is mainly because I could not find a good VDOM library in Rust.
