@@ -16,10 +16,16 @@ Because of Rust's hype and blazingly fast speed. Also, I have Typescript/Javascr
  - Build the classic React Native counter example using this framework.
 
 ### Milestones
- - Build an app that can print "hello world!" in the console.
- - Mount a view from Rust
- - Display a hello world app but with a centered text on display
- - Integrate reactivity into the app with hooks and the like
- - Create/extend macros that manage views and bind methods similar to react.
- - Add styling.
- - hot reloading (hard)
+ - [ ] Build an app that can print "hello world!" in the console.
+ - [ ] Mount a view from Rust
+ - [ ] Display a hello world app but with a centered text on display
+ - [ ] Integrate reactivity into the app with hooks and the like
+ - [ ] Create/extend macros that manage views and bind methods similar to react.
+ - [ ] Add styling.
+ - [ ] hot reloading (hard)
+
+### Interesting Links
+ - https://github.com/arctic-hen7/perseus
+   SolidJS framework for wasm.
+ - https://github.com/sycamore-rs/sycamore
+   Reactivity library in Rust
