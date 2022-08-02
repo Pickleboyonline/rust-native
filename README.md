@@ -26,6 +26,9 @@ Because of Rust's hype and blazingly fast speed. Also, I have Typescript/Javascr
 
 ### Interesting Links
  - https://github.com/arctic-hen7/perseus
+
    SolidJS framework for wasm.
+
  - https://github.com/sycamore-rs/sycamore
+
    Reactivity library in Rust
