@@ -4,14 +4,14 @@ A React Native like framework that uses Rust instead of Javascript
 
 ### Why?
 
-Because of Rust's hype and blazingly fast speed. Also, I have Typescript/Javascript fatigue. Oh yeah, and Rust apparantly has the best-in-class memory safety and developer experience.
+Because of Rust's hype and blazingly fast speed. Also, I have Typescript/Javascript fatigue. Oh yeah, and Rust apparently has the best-in-class memory safety and developer experience.
 
 ### General Notes
 
 - SolidJs like reactivity and structure. The choice here is mainly because I could not find a good VDOM library in Rust.
 - In general should borrow a lot from the new react native architecture, outlined (here)[https://reactnative.dev/architecture/overview].
-  We should be able to use Yoga, the flexbox engine, since its based in C/C++. Frabric can be built in Rust but instead of a VDOM
-  we use obersivable reactivity to update Native UIs.
+  We should be able to use Yoga, the flexbox engine, since its based in C/C++. Fabric can be built in Rust but instead of a VDOM
+  we use observable reactivity to update Native UIs.
 - Should be able to be used on any platform similar to React Native's architecture. The native C bindings for iOS and Android should be
   refactored into standard modules that can be called.
 
@@ -39,11 +39,22 @@ Because of Rust's hype and blazingly fast speed. Also, I have Typescript/Javascr
 
   Reactivity library in Rust
 
+- https://github.com/vislyhq/stretch
+
+  Flexbox
+
+- https://github.com/MoAlyousef/floui-rs and https://github.com/MoAlyousef/floui
+
+  Get
+
 ### Documentation
 
 We use (docusaurus)[https://docusaurus.io/] for documentation. Please update the markdowns accordingly
 
 ### TODOs:
 
-- Implement Github Actions to auto compile docs on main branch change.
-- Learn rust
+- [ ] Implement Github Actions to auto compile docs on main branch change.
+- [ ] Learn basic Rust
+- [ ] Create a Rust monorepo
+
+### Project File Structure
