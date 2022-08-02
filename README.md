@@ -9,6 +9,13 @@ Because of Rust's hype and blazingly fast speed. Also, I have Typescript/Javascr
 ### General Notes
 
 - SolidJs like reactivity and structure. The choice here is mainly because I could not find a good VDOM library in Rust.
+- **[NEW]**: Might convert this project into a Rust version of https://kotlinlang.org/lp/mobile/. After looking at SwiftUI and
+  Android's Jetpack Compose, the new mobile APIs look so similar to React I think it's pointless to rewrite everything in Rust when the
+  native alternatives are so good now.
+
+  I believe what would be more useful is to share logic between iOS and Android, similar to share a Redux store in the native language.
+  Rust can offer advantages over native kotlin when it comes to performance.
+
 - In general should borrow a lot from the new react native architecture, outlined (here)[https://reactnative.dev/architecture/overview].
   We should be able to use Yoga, the flexbox engine, since its based in C/C++. Fabric can be built in Rust but instead of a VDOM
   we use observable reactivity to update Native UIs.
@@ -45,7 +52,31 @@ Because of Rust's hype and blazingly fast speed. Also, I have Typescript/Javascr
 
 - https://github.com/MoAlyousef/floui-rs and https://github.com/MoAlyousef/floui
 
-  Get
+  iOS and Android Rust Widgets
+
+- https://medium.com/visly/rust-on-ios-39f799b3c1dd
+
+  Rust on iOS and Android
+
+- https://reactnative.dev/architecture/overview
+
+- https://chinedufn.github.io/percy/html-macro/classes/index.html
+
+  Rust VDOM, could be useful for writing macros
+
+- https://github.com/rustwasm/wasm-bindgen
+
+  Inspiration for https://github.com/nvzqz/swift-bindgen
+
+- https://mozilla.github.io/uniffi-rs/Overview.html
+
+  This module can effectively serve as our "Bridge" between Kotlin, Swift, and Rust
+  Looks to make creating bindings way easier than by hand and should be able to integrate into the
+  IDE
+
+- https://github.com/thombles/dw2019rust
+- https://source.android.com/setup/build/rust/building-rust-modules/overview
+- https://bazel.build/tutorials/ios-app
 
 ### Documentation
 
