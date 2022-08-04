@@ -80,7 +80,7 @@ Because of Rust's hype and blazingly fast speed. Also, I have Typescript/Javascr
 
 ### Documentation
 
-We use (docusaurus)[https://docusaurus.io/] for documentation. Please update the markdowns accordingly
+We use [docusaurus](https://docusaurus.io/) for documentation. Please update the markdowns accordingly
 
 ### TODOs:
 
